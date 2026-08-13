@@ -1,0 +1,95 @@
+:root {
+  --background: #d4c6bd;
+  --purple: #4f2860;
+  --dark-purple: #32113d;
+  --white: #ffffff;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+  top: 30px;   
+  left: 20px; 
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #6b2d8a;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2px;
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.name_title h1 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 900;
+  color: var(--dark-purple);
+}
+
+.word_container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: -30px;
+  border: none;
+  font-size: 15px;
+  color: var(--dark-purple);
+}
+
+.word_container button {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 999px;
+  padding: .75rem 1.75rem;
+  color: var(--dark-purple);
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform .2s, background .2s;
+}
+
+.word_container button:hover {
+  transform: scale(1.04);
+  background: rgba(79, 40, 96, .06);
+}
+
+h1 {
+  margin-bottom: 3px;
+  color: var(--purple);
+  font-weight: 400;
+}
+
+h2 {
+  color: var(--purple);
+}
+
+img {
+  position: relative;
+  left: 45px;
+  top: 60px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  clip-path: circle(50%);
+  border: 4px solid var(--purple);
+  border-radius: 50%;
+}
+
+.name_tag {
+  position: relative;
+  right: 200px;
+}
+
+p {
+  color: var(--purple);
+}
